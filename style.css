@@ -1,0 +1,82 @@
+body{
+    background: linear-gradient(45deg,#00f3ff, #004580);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    color: aliceblue;
+}
+
+.group{
+    width: 400px;
+    margin: auto;
+}
+
+
+.calcs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+button{
+    outline: none;
+    cursor: pointer;
+}
+.width-25{
+    width: 25%;
+    padding: 20px 0;
+    font-size: 19px;
+    background-color: #D8D9DB;
+
+}
+.width-50{
+    width: 50%;
+    padding: 20px 0;
+    font-size: 19px;
+    background-color: #D8D9DB;
+}
+.color{
+    background-color: #DF974C;
+    color: white;
+}
+input{
+    width: 100%;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    font-size: 26px;
+    text-align: right;
+    outline: none;
+}
+input::placeholder{
+    color: white;
+}
+button:active{
+
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
